@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="css/cadastro.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <form id="formCadastro">
+            <div class="container-form">
+                <h1>Criar Conta</h1>
+
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome"
+                    placeholder="Digite o nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"
+                    placeholder="Digite seu email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha"
+                    placeholder="Digite sua senha" required>
+
+                <label for="dataNascimento">Data de nascimento:</label>
+                <input type="date" name="dataNascimento" id="dataNascimento"
+                    required>
+
+                <div class="botaoCadastro">
+                    <button type="submit">Registrar conta</button>
+
+                    <a href="login.html">Já possui uma conta</a>
+
+                </div>
+            </div>
+        </form>
+        <script src="js/cadastro.js"></script>
+    </body>
+</html>
