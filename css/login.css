@@ -1,0 +1,96 @@
+body {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight:600;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    color: #60A5FA;
+    box-sizing: border-box;
+}
+
+label {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.container-form {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E293B;
+    color: #F8FAFC;
+    width: 320px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #334155;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+input::placeholder {
+    color: #94A3B8;
+}
+
+.botaoLogin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    height: 30px;
+}
+
+button {
+    background-color: #2563EB;
+    display: flex;
+    
+    font-size: 1rem;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+}
+
+button:hover {
+    background-color: #1D4ED8;
+    transform: scale(1.05);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: #94A3B8;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #2563EB;
+    transform: scale(1.05);
+}
